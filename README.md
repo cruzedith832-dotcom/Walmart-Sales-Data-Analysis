@@ -3,12 +3,12 @@ Análisis de ventas de Walmart, utilizando POSTGRESQL para identificar tendencia
 
 Este repositorio contiene un análisis de datos realizado sobre el dataset de ventas de Walmart. El objetivo principal fue transformar datos crudos en información estratégica para la toma de decisiones, aplicando técnicas avanzadas de SQL.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - **Lenguaje:** SQL (PostgreSQL)
 - **Herramienta de Gestión:** pgAdmin 4
 - **Conceptos Aplicados:** DDL/DML, Agregaciones, Sentencias Condicionales (`CASE`) y Funciones de Ventana (`LAG`).
 
-## 🔍 Hallazgos y Resultados del Análisis
+## Hallazgos y Resultados del Análisis
 
 A través de la ejecución de los scripts incluidos, se determinaron los siguientes puntos clave:
 
@@ -20,7 +20,7 @@ A través de la ejecución de los scripts incluidos, se determinaron los siguien
 6. **Comparativa Secuencial:** Utilicé funciones de ventana para comparar el rendimiento de cada tienda respecto a su semana inmediata anterior.
 7. **Cálculo de Variación (Saldo):** Se desarrolló una métrica de "Saldo" para cuantificar la ganancia o pérdida semanal, permitiendo detectar tendencias de crecimiento o alertas de caída de ventas.
 
-## 🚀 Cómo utilizar este repositorio
+## Cómo utilizar este repositorio
 El archivo `analisis_walmart.sql` contiene todos los pasos del proyecto:
 1. Creación de la tabla.
 2. Limpieza y tipado de datos (conversión de fechas).
